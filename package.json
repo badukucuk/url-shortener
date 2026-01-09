@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A modern and minimalist URL shortening service built with Node.js, Express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "url-shortener",
+    "shortlink",
+    "link-shortener",
+    "nodejs",
+    "express",
+    "mongodb",
+    "nanoid"
+  ],
+  "author": "Batuhan Küçük",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1",
+    "nanoid": "^5.1.6"
+  }
+}

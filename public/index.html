@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+        <link rel="stylesheet" href="style.css">
+        <title>URL Shortener</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-container">
+                <input type="text" id="fullUrl" placeholder="https://www.example.com" required>
+                <button id="shortenBtn">Get Short Link</button>
+            </div>
+            
+            <div id="resultContainer" class="result-container">
+                <div>
+                    <button id="copyBtn">Copy</button>
+                </div>
+
+                <div class="result-box">
+                    <a id="shortLink" href="#" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
