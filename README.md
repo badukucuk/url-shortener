@@ -2,6 +2,12 @@
 
 A modern and minimalist URL shortening service.
 
+## Live Demo
+
+🌐 **Try it now:** [https://url-shortener-9g79.onrender.com](https://url-shortener-9g79.onrender.com)
+
+Visit the live application and start shortening URLs!
+
 ## Features
 
 - ⚡ Fast and simple URL shortening
